@@ -7,7 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device specific configs
-$(call inherit-product, device/UNISOC/uis7870sc_2h10/device.mk)
+$(call inherit-product, device/unisoc/uis7870sc_2h10/device.mk)
 
 # Device identifier
 PRODUCT_DEVICE := uis7870sc_2h10
